@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="#CAE1FF"
+    android:orientation="vertical">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="CUMT点评平台"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

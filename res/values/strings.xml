@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="choose_number">选择号码: <xliff:g>%d</xliff:g> <xliff:g>%d</xliff:g></string>
+    <string name="choose">选择:%1$d</string>
+    <string name="app_name">CUMTCS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="User_Nicheng">%1$s</string>
+    <string name="User_ID">%1$s</string>
+    <string name="fanhuianniu">←</string>
+    <string name="shangpinzhiling">商品质量：</string>
+    <string name="fuwuzhiliang">服务质量：</string>
+    <string name="ScoreOfShangpin">商品质量%1$s星</string>
+    <string name="ScoreOfFuwu">服务质量%1$s星</string>
+    <string name="storeDetail">所有商家</string>
+    <string name="haopingbang">好评榜</string>
+    <string name="chapingbang">差评榜</string>
+    <string name="shangjia_detail_tv">您选择的是位于“%1$s”的“%2$s”</string>
+    <string name="shangjia_detail_tv_null">您尚未选择商家</string>
+    <string name="guanyu_info">感谢您使用本应用程序，为维护我校学生在校正当消费权益，
+        公正评价我校商家，请各位同学发布信息秉持公平公正的原则，感谢您的配合！
+        \n\n同时，为打击校园黑心商家的不合理行为，请及时公开您合法权益受到侵犯的消费记录。</string>
+
+    <string name="xuhao">%1$s</string>
+    <string name="avg_score_shangpin">平均商品质量\t</string>
+    <string name="avg_score_fuwu">平均服务质量\t</string>
+    <string name="stars">%1$s</string>
+    
+    
+    <string name="url">http://192.168.109.1:8080//ServletForGETMethod/</string>
+    
+    <string name="orderByHot">热度排序</string>
+    <string name="orderByGood">好评排序</string>
+    <string name="orderByBad">差评排序</string>
+    
+    <string name="shangjia_et_hint">搜索商家名称</string>
+    
+    <string name="storeName">%1$s</string>
+    <string name="storeLocation">位于%1$s附近</string>
+    <string name="storeIntroduce">平均商品质量%1$d星\n平均服务质量%2$d星</string>
+</resources>

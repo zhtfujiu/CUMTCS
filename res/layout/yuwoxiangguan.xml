@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_background3"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <Button 
+        android:id="@+id/btn_yuwoxiangguan_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/fanhuianniu"
+        android:textStyle="bold"
+        android:background="#CAE1FF"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:clickable="true"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/btn_yuwoxiangguan_fanhui"
+        android:layout_alignTop="@id/btn_yuwoxiangguan_fanhui"
+        android:layout_alignBottom="@id/btn_yuwoxiangguan_fanhui"
+        android:text="与我相关              "
+        android:gravity="center"
+        android:background="#CAE1FF"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+    </RelativeLayout>
+    
+    <com.data.ReFalshListView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/yuwoxiangguan_reListview"        
+        ></com.data.ReFalshListView>
+</LinearLayout>

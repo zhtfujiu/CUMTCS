@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_background3"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp" >
+        <Button 
+        android:id="@+id/btn_guanyu_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/fanhuianniu"
+        android:textStyle="bold"
+        android:background="#CAE1FF"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:clickable="true"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/btn_guanyu_fanhui"
+        android:layout_alignTop="@id/btn_guanyu_fanhui"
+        android:layout_alignBottom="@id/btn_guanyu_fanhui"
+        android:text="关于             "
+        android:gravity="center"
+        android:background="#CAE1FF"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+    </RelativeLayout>
+    
+    <TextView 
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:text="@string/guanyu_info"
+         android:gravity="center_vertical"
+        />
+</LinearLayout>

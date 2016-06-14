@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location">
+        <item>地超</item>
+        <item>桃苑广场</item>
+        <item>二食堂 </item>
+        <item>三食堂</item>
+        <item>图书馆</item>
+        <item>公教区</item>
+        <item>小南门</item>
+    </string-array>    
+    <string-array name="locationID">
+        <item >dc</item>
+        <item >tygc</item>
+        <item >est</item>
+        <item >sst</item>
+        <item >tsg</item>
+        <item >gjq</item>
+        <item >xnm</item>        
+    </string-array>
+    
+    <string-array name="AllStoreName" >
+        <item >1号杂货铺</item>
+        <item >2号杂货铺</item>
+        <item >3号杂货铺</item>
+        <item >教育超市（地超）</item>
+        <item >教育超市1</item>
+        <item >教育超市2</item>
+        <item >饰全饰美</item>
+        <item >美佳造型2</item>
+        <item >惠宇电子</item>
+        <item >智汇电子</item>
+        <item >国际标榜</item>
+        <item >中国电信</item>
+        <item >杜阿姨西饼屋</item>
+        <item >985</item>
+        <item >小田田</item>
+        <item >蜜雪冰城</item>
+        <item >原么么茶</item>
+        <item >教育超市3</item>
+        <item >Aloha 水果</item>
+        <item >美佳造型3</item>
+        <item >中国移动</item>
+        <item >天水图文</item>
+        <item >学生超市3</item>
+        <item >C吧</item>
+        <item >友家美地</item>
+        <item >矿图文印</item>
+        <item >教四A吧</item>
+        <item >1号水果店</item>
+    </string-array>
+    
+    <string-array name="storeName1" >
+        <item >1号杂货铺</item>
+        <item >2号杂货铺</item>
+        <item >3号杂货铺</item>
+        <item >教育超市（地超）</item>
+    </string-array>
+    <string-array name="storeName1ID">
+        <item >1haozahuopu</item>
+        <item >2haozahuopu</item>
+        <item >3haozahuopu</item>
+        <item >jiaoyuchaoshidichao</item>
+    </string-array>
+    
+    
+    
+    <string-array name="storeName2" >
+        <item >教育超市1</item>
+    </string-array>
+    <string-array name="storeName2ID">
+        <item >jiaoyuchaoshi1</item>
+    </string-array>
+    
+    
+    <string-array name="storeName3" >
+        <item >教育超市2</item>
+        <item >饰全饰美</item>
+        <item >美佳造型2</item>
+        <item >惠宇电子</item>
+        <item >智汇电子</item>
+        <item >国际标榜</item>
+        <item >中国电信</item>
+        <item >杜阿姨西饼屋</item>        
+    </string-array>
+    <string-array name="storeName3ID">
+        <item >jiaoyuchaoshi2</item>
+        <item >shiquanshimei</item>
+        <item >meijiazaoxing2</item>
+        <item >huiyudianzi</item>
+        <item >zhihuidianzi</item>
+        <item >guojibiaobang</item>
+        <item >zhongguodianxin</item>
+        <item >duayixibingwu</item>
+    </string-array>
+    
+    
+    <string-array name="storeName4" >
+        <item >985</item>
+        <item >小田田</item>
+        <item >蜜雪冰城</item>
+        <item >原么么茶</item>
+        <item >教育超市3</item>
+        <item >Aloha 水果</item>
+        <item >美佳造型3</item>
+        <item >中国移动</item>
+        <item >天水图文</item>
+        <item >学生超市3</item>        
+    </string-array>
+    <string-array name="storeName4ID">
+        <item >jiubawu</item>
+        <item >xiaotiantian</item>
+        <item >mixuebingcheng</item>
+        <item >yuanmemecha</item>
+        <item >jiaoyuchaoshi3</item>
+        <item >Alohashuiguo</item>
+        <item >meijiazaoxing3</item>
+        <item >zhongguoyidong</item>
+        <item >tianshuituwen</item>
+        <item >xueshengchaoshi3</item>
+    </string-array>
+    
+    
+    <string-array name="storeName5" >
+        <item >C吧</item>
+        <item >友家美地</item>
+        <item >矿图文印</item>
+    </string-array>
+    <string-array name="storeName5ID">
+        <item >cba</item>
+        <item >youjiameidi</item>
+        <item >kuangtuwenyin</item>
+    </string-array>
+    
+    
+    <string-array name="storeName6" >
+        <item >教四A吧</item>
+    </string-array>
+    <string-array name="storeName6ID">
+        <item >jiaosiaba</item>
+    </string-array>
+    
+    
+    <string-array name="storeName7" >
+        <item >1号水果店</item>
+    </string-array>
+    <string-array name="storeName7ID">
+        <item >1haoshuiguodian</item>
+    </string-array>
+</resources>

@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_background3" >
+
+    <TextView
+        android:id="@+id/tv_storeActivity_title"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#CAE1FF"
+        android:gravity="center"
+        android:text="商家详情"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_storeActivity_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#CAE1FF"
+        android:clickable="true"
+        android:text="@string/fanhuianniu"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView 
+        android:id="@+id/store_img"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/no_pic"
+        android:layout_below="@id/btn_storeActivity_fanhui"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@id/store_img"
+        android:layout_alignTop="@id/store_img"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/store_img" >
+
+        <TextView
+            android:id="@+id/store_tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:text="@string/storeName" />       
+        
+        <TextView
+            android:id="@+id/store_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/store_tv1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/avg_score_shangpin" />
+
+        <TextView 
+            android:id="@+id/store_tv2_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/store_tv2"
+            android:layout_alignBottom="@id/store_tv2"
+            android:text="@string/stars"
+            android:textColor="#FFC125"
+            />
+        <TextView
+            android:id="@+id/store_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/store_tv2"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/avg_score_fuwu" />
+        <TextView 
+            android:id="@+id/store_tv3_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/store_tv3"
+            android:layout_alignBottom="@id/store_tv3"
+            android:text="@string/stars"
+            android:textColor="#FFC125"
+            />
+    </RelativeLayout>
+
+    <com.data.ReFalshListView
+        android:id="@+id/store_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" 
+        android:layout_below="@id/store_img">
+    </com.data.ReFalshListView>
+
+</RelativeLayout>

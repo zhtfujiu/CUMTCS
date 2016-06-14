@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp" >
+        <Button 
+        android:id="@+id/btn_wodelishipingjia_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/fanhuianniu"
+        android:textStyle="bold"
+        android:background="#CAE1FF"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:clickable="true"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/btn_wodelishipingjia_fanhui"
+        android:layout_alignTop="@id/btn_wodelishipingjia_fanhui"
+        android:layout_alignBottom="@id/btn_wodelishipingjia_fanhui"
+        android:text="我的历史评价            "
+        android:gravity="center"
+        android:background="#CAE1FF"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+    </RelativeLayout>
+    
+    <TextView 
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="历史评价区域"
+         android:gravity="center"
+        />
+</LinearLayout>

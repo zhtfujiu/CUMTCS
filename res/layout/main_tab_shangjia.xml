@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view_faxian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_background3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_tab_shangjia_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/main_tab_shangjia_top1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CAE1FF"
+            android:descendantFocusability="blocksDescendants" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/orderByHot" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_tab_shangjia_top2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CAE1FF"
+            android:descendantFocusability="blocksDescendants" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/orderByGood" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_tab_shangjia_top3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#CAE1FF"
+            android:descendantFocusability="blocksDescendants" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="@string/orderByBad" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/shangjia_et_parentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:focusableInTouchMode="true"
+        android:layout_below="@id/main_tab_shangjia_top" >
+
+        <ImageView
+            android:id="@+id/shangjia_tab_detail_iv"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#00F5FFFA"
+            android:src="@drawable/search" />
+
+        <EditText
+            android:id="@+id/shangjia_tab_detail_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/shangjia_tab_detail_iv"
+            android:background="#00F5FFFA"
+            android:hint="@string/shangjia_et_hint"
+            android:imeOptions="actionSearch"/>
+
+        <ImageButton
+            android:id="@+id/shangjia_tab_detail_imgbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/shangjia_tab_detail_edittext"
+            android:layout_alignRight="@id/shangjia_tab_detail_edittext"
+            android:layout_alignTop="@id/shangjia_tab_detail_edittext"
+            android:layout_marginRight="10dip"
+            android:background="#00F5FFFA"
+            android:src="@drawable/delete"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/shangjia_detail_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shangjia_et_parentLayout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

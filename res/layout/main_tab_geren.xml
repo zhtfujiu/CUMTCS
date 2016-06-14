@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/listview_background3"
+    android:orientation="vertical"
+    android:id="@+id/main_view_geren">
+   
+    <ScrollView
+        android:id="@+id/geren_ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <ImageView 
+                    android:id="@+id/User_Head"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/user_head"
+                    />
+                <TextView 
+                    android:id="@+id/User_Nicheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/User_Head"
+                    android:text="@string/User_Nicheng"
+                    android:textSize="18sp" 
+                    />
+                <TextView 
+                    android:id="@+id/UserID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/User_Head"
+                    android:text="@string/User_ID"
+                    android:textSize="18sp" 
+                    />
+            </RelativeLayout>
+              
+            <LinearLayout 
+                android:id="@+id/Yuwoxiangguan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:focusable="true"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="与我相关">
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/goright" 
+                    android:gravity="right"
+                    />
+                
+            </LinearLayout>
+            
+           
+            
+                      
+            <LinearLayout 
+                android:id="@+id/Xiugaimima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="修改昵称或密码"
+                    />
+                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/goright" 
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:id="@+id/QiehuanID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="切换账号"
+                    />
+                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/goright" 
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:id="@+id/Guanyu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="关于"
+                    />
+                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/goright" 
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+            
+            </LinearLayout>        
+    </ScrollView>
+
+</LinearLayout>
